@@ -40,8 +40,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042733062417270271}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 1
+  m_Shape: 0
   m_Color: {r: 1, g: 0.37254903, b: 0, a: 1}
   m_Intensity: 3
   m_Range: 10
@@ -99,11 +100,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2042733062417270269}
     m_Modifications:
-    - target: {fileID: -927199367670048503, guid: d16b83a71cf8a44c497e10545a79767f,
+    - target: {fileID: -5178661895559278292, guid: d16b83a71cf8a44c497e10545a79767f,
         type: 3}
-      propertyPath: m_Name
-      value: Mesh_Sun
-      objectReference: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: -4216859302048453862, guid: d16b83a71cf8a44c497e10545a79767f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -174,15 +175,20 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 500
       objectReference: {fileID: 0}
-    - target: {fileID: -5178661895559278292, guid: d16b83a71cf8a44c497e10545a79767f,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
     - target: {fileID: -1504981713932161579, guid: d16b83a71cf8a44c497e10545a79767f,
         type: 3}
       propertyPath: m_CastShadows
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1504981713932161579, guid: d16b83a71cf8a44c497e10545a79767f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: d16b83a71cf8a44c497e10545a79767f,
+        type: 3}
+      propertyPath: m_Name
+      value: Mesh_Sun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d16b83a71cf8a44c497e10545a79767f, type: 3}
