@@ -5,6 +5,11 @@ namespace KartGame.KartSystems
 {
     public class ArcadeKart : MonoBehaviour
     {
+        public GameObject capacete;
+        public Transform kart;
+        private float shootVelocity = 5f;
+        bool amno = false;
+
         /// <summary>
         /// Contains parameters that can adjust the kart's behaviors temporarily.
         /// </summary>
@@ -81,7 +86,7 @@ namespace KartGame.KartSystems
         }
 
         public Rigidbody Rigidbody { get; private set; }
-        public Vector2 Input       { get; private set; }
+        public Vector2 InputVector       { get; private set; }
         public float AirPercent    { get; private set; }
         public float GroundPercent { get; private set; }
 
@@ -138,7 +143,15 @@ namespace KartGame.KartSystems
             suspensionNeutralPos = SuspensionBody.transform.localPosition;
             suspensionNeutralRot = SuspensionBody.transform.localRotation;
         }
-
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                GameObject go = Instantiate(capacete, kart.position + kart.forward * 10, kart.rotation);
+                // go.GetComponent<Rigidbody>().velocity = kart.forward * shootVelocity;
+            }
+        }
+        
         void FixedUpdate()
         {
             ResetIfStuck();
@@ -157,8 +170,8 @@ namespace KartGame.KartSystems
             AirPercent = 1 - GroundPercent;
 
             // gather inputs
-            float accel = Input.y;
-            float turn = Input.x;
+            float accel = InputVector.y;
+            float turn = InputVector.x;
 
             // apply vehicle physics
             GroundVehicle(minHeight);
@@ -175,7 +188,7 @@ namespace KartGame.KartSystems
         void GatherInputs()
         {
             // reset input
-            Input = Vector2.zero;
+            InputVector = Vector2.zero;
 
             // gather nonzero input from our sources
             for (int i = 0; i < m_Inputs.Length; i++)
@@ -184,7 +197,7 @@ namespace KartGame.KartSystems
                 Vector2 current = inputSource.GenerateInput();
                 if (current.sqrMagnitude > 0)
                 {
-                    Input = current;
+                    InputVector = current;
                 }
             }
         }
@@ -425,7 +438,7 @@ namespace KartGame.KartSystems
         bool IsStuck()
         {
             float speed = Rigidbody.velocity.magnitude;
-            if(GroundPercent <= 0 && speed < 0.01f && Mathf.Abs(Input.y) > 0)
+            if(GroundPercent <= 0 && speed < 0.01f && Mathf.Abs(InputVector.y) > 0)
                 return true;
 
             return false;
@@ -482,7 +495,7 @@ namespace KartGame.KartSystems
             else
             {
                 // use this value to play kart sound when it is waiting the race start countdown.
-                return Input.y;
+                return InputVector.y;
             }
         }
 

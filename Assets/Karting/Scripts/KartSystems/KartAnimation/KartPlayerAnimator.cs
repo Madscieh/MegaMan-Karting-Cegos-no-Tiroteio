@@ -26,7 +26,7 @@ namespace KartGame.KartSystems
 
         void Update()
         {
-            steeringSmoother = Mathf.Lerp(steeringSmoother, Kart.Input.x, Time.deltaTime * 5f);
+            steeringSmoother = Mathf.Lerp(steeringSmoother, Kart.InputVector.x, Time.deltaTime * 5f);
             PlayerAnimator.SetFloat(m_SteerHash, steeringSmoother);
 
             // If more than 2 wheels are above the ground then we consider that the kart is airbourne.

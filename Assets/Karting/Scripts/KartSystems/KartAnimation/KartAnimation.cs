@@ -110,7 +110,7 @@ namespace KartGame.KartSystems
 
         void FixedUpdate() 
         {
-            m_SmoothedSteeringInput = Mathf.MoveTowards(m_SmoothedSteeringInput, kartController.Input.x, 
+            m_SmoothedSteeringInput = Mathf.MoveTowards(m_SmoothedSteeringInput, kartController.InputVector.x, 
                 steeringAnimationDamping * Time.deltaTime);
         }
 
