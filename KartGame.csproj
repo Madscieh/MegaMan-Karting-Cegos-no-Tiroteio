@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Karting\Scripts\ArcadeKartPowerup.cs" />
     <Compile Include="Assets\Karting\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Karting\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\Karting\Scripts\FramerateCounter.cs" />
     <Compile Include="Assets\Karting\Scripts\GameConstants.cs" />
     <Compile Include="Assets\Karting\Scripts\GameFlowManager.cs" />
