@@ -5,11 +5,6 @@ namespace KartGame.KartSystems
 {
     public class ArcadeKart : MonoBehaviour
     {
-        public GameObject capacete;
-        public Transform kart;
-        private float shootVelocity = 5f;
-        bool amno = false;
-
         /// <summary>
         /// Contains parameters that can adjust the kart's behaviors temporarily.
         /// </summary>
@@ -143,15 +138,7 @@ namespace KartGame.KartSystems
             suspensionNeutralPos = SuspensionBody.transform.localPosition;
             suspensionNeutralRot = SuspensionBody.transform.localRotation;
         }
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                GameObject go = Instantiate(capacete, kart.position + kart.forward * 10, kart.rotation);
-                // go.GetComponent<Rigidbody>().velocity = kart.forward * shootVelocity;
-            }
-        }
-        
+       
         void FixedUpdate()
         {
             ResetIfStuck();

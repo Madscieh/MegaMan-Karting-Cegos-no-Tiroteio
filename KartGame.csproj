@@ -80,6 +80,8 @@
     <Compile Include="Assets\Karting\Scripts\ItemAcelerador.cs" />
     <Compile Include="Assets\Karting\Scripts\ItemCapacete.cs" />
     <Compile Include="Assets\Karting\Scripts\ItemDescontrolador.cs" />
+    <Compile Include="Assets\Karting\Scripts\KartControl.cs" />
+    <Compile Include="Assets\Karting\Scripts\KartControlOne.cs" />
     <Compile Include="Assets\Karting\Scripts\KartSystems\ArcadeKart.cs" />
     <Compile Include="Assets\Karting\Scripts\KartSystems\Inputs\BaseInput.cs" />
     <Compile Include="Assets\Karting\Scripts\KartSystems\Inputs\KeyboardInput.cs" />
