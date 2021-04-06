@@ -142,6 +142,9 @@ public class GameFlowManager : MonoBehaviour
             if (m_ObjectiveManager.AreAllObjectivesCompleted())
                 EndGame(true);
 
+            if (m_ObjectiveManager.AreAllObjectivesCompleted2())
+                EndGame2(true);
+
             if (m_TimeManager.IsFinite && m_TimeManager.IsOver)
                 EndGame(false);
         }
@@ -184,4 +187,18 @@ public class GameFlowManager : MonoBehaviour
             loseDisplayMessage.gameObject.SetActive(true);
         }
     }
+
+    void EndGame2 (bool win)
+    {
+        Debug.Log ("jodaor 2 ganhou");
+    }
+
+
+
+
+
+
+
 }
+
+

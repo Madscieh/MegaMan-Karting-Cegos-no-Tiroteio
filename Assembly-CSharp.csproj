@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{48008B18-4136-BFE3-C10C-A6E830231FDA}</ProjectGuid>
+    <ProjectGuid>{B613E169-02F6-DF68-E830-206AAC1D4074}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -47,7 +47,7 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>4.8.2.0</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>4.9.1.0</UnityProjectGeneratorVersion>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>2019.4.6f1</UnityVersion>
@@ -274,25 +274,25 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.6f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Abstractions.TestingHelpers">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Assets/Karting/ML_Agents/Plugins/System.IO.Abstractions.TestingHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Grpc.Core">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/Grpc.Core.dll</HintPath>
     </Reference>
     <Reference Include="System.Interactive.Async">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Assets/Karting/ML_Agents/Plugins/ProtoBuffer/System.Interactive.Async.dll</HintPath>
     </Reference>
     <Reference Include="Google.Protobuf">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/PackageCache/com.unity.barracuda@0.5.0-preview/Barracuda/Plugins/ProtoBuffer/Google.Protobuf.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Unsafe">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/PackageCache/com.unity.burst@1.1.1/Unity.Burst.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/PackageCache/com.unity.connect.share@1.2.0-preview.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/PackageCache/com.unity.connect.share@1.2.0-preview.1/Plugins/System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -649,125 +649,125 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="MacBLAS">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/MacBLAS.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/MacBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Connect.Share.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Connect.Share.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Barracuda-editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Barracuda-editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Barracuda-editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Barracuda">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Barracuda.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Barracuda.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="iOSBLAS">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/iOSBLAS.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/iOSBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="BurstBLAS">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/BurstBLAS.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/BurstBLAS.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/marce/OneDrive/Documentos/GitHub/MegaMan Karting-Cegos no Tiroteio/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="KartGame.csproj">
-      <Project>{11D52D22-A195-BBDA-FD69-559B5E9C6062}</Project>
+      <Project>{F1303044-0B46-5E25-ECCE-B4A6F411DF27}</Project>
       <Name>KartGame</Name>
     </ProjectReference>
     <ProjectReference Include="MLAgentsToolKit.csproj">
-      <Project>{62F7742A-B2B0-56F8-7164-CA326232B6AA}</Project>
+      <Project>{6F304CE9-C387-42C6-2A14-C8E6EBE7DAA1}</Project>
       <Name>MLAgentsToolKit</Name>
     </ProjectReference>
     <ProjectReference Include="MLAgentsToolKit.Editor.csproj">
-      <Project>{26F0FDB9-F1D6-B128-5603-054BB2478265}</Project>
+      <Project>{EAFE5F44-8EA7-9207-DED0-C1B7817D4EB4}</Project>
       <Name>MLAgentsToolKit.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KartGame.AI.csproj">
-      <Project>{849D2A5E-48AA-00E7-950D-B95E72C31E77}</Project>
+      <Project>{084B5D4A-752C-7D1B-2C96-2BAAAC5E26F7}</Project>
       <Name>KartGame.AI</Name>
     </ProjectReference>
     <ProjectReference Include="KartGame.Editor.csproj">
-      <Project>{71A8E9CC-FBB6-1FCF-4935-B8576527072E}</Project>
+      <Project>{4D67BAFA-A86A-3372-791C-71BF4B2A7887}</Project>
       <Name>KartGame.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="KartGame.AI.Editor.csproj">
-      <Project>{A31E1458-2D20-A4F3-E0BD-7E7AA9D20A0B}</Project>
+      <Project>{6B012589-9486-F559-C41C-ACA4BAA379A9}</Project>
       <Name>KartGame.AI.Editor</Name>
     </ProjectReference>
   </ItemGroup>
