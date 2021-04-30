@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{F1303044-0B46-5E25-ECCE-B4A6F411DF27}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -92,9 +91,7 @@
     <Compile Include="Assets\Karting\Scripts\KartSystems\KartBounce.cs" />
     <Compile Include="Assets\Karting\Scripts\MinMaxParameters.cs" />
     <Compile Include="Assets\Karting\Scripts\Objective.cs" />
-    <Compile Include="..\..\..\Desktop\ObjectiveManager.cs">
-      <Link>Assets\Karting\Scripts\ObjectiveManager.cs</Link>
-    </Compile>
+    <Compile Include="Assets\Karting\Scripts\ObjectiveManager.cs" />
     <Compile Include="Assets\Karting\Scripts\PrefabReplacer.cs" />
     <Compile Include="Assets\Karting\Scripts\PrefabReplacerOnInstance.cs" />
     <Compile Include="Assets\Karting\Scripts\SimpleShaker.cs" />
@@ -723,8 +720,7 @@
       <HintPath>C:/Users/lucas/Documents/GitHub/MegaMan-Karting-Cegos-no-Tiroteio/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup></ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

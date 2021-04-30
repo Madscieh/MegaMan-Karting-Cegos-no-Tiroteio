@@ -1995,6 +1995,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 98295a7db844b904ea59d1b48ae78e2d, type: 2}
+    - target: {fileID: 3934862070784966188, guid: 5bce91ab2f42c924e9171c2efed10487,
+        type: 3}
+      propertyPath: m_TagString
+      value: aaa
+      objectReference: {fileID: 0}
     - target: {fileID: 3934862070784966610, guid: 5bce91ab2f42c924e9171c2efed10487,
         type: 3}
       propertyPath: m_Center.y
@@ -2119,7 +2124,7 @@ PrefabInstance:
     - target: {fileID: 3934862071804020761, guid: 5bce91ab2f42c924e9171c2efed10487,
         type: 3}
       propertyPath: m_TagString
-      value: 'Player 2 '
+      value: Player2
       objectReference: {fileID: 0}
     - target: {fileID: 3934862071804020767, guid: 5bce91ab2f42c924e9171c2efed10487,
         type: 3}

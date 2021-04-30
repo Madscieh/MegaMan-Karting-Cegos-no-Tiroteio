@@ -40,11 +40,13 @@ public class PickupObject : TargetObject
         Destroy(gameObject, collectDuration);
     }
     
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider Player)
     {
-        if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player")))
+        if (!((layerMask.value & 1 << Player.gameObject.layer) > 0 && Player.CompareTag("Player")))
         {
             OnCollect();
         }
+ 
     }
+
 }

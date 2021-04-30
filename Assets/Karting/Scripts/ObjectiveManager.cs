@@ -7,7 +7,8 @@ public class ObjectiveManager : MonoBehaviour
     List<Objective> m_Objectives = new List<Objective>();
     List<Objective> m_Objectives2 = new List<Objective>();
 
-    public List<Objective> Objectives => m_Objectives, m_Objectives2;
+    public List<Objective> Objectives => m_Objectives;
+    public List<Objective> Objectives2 => m_Objectives2;
     
     public static Action<Objective> RegisterObjective;
     public static Action<Objective> RegisterObjective2;

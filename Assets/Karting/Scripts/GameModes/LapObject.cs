@@ -25,7 +25,10 @@ public class LapObject : TargetObject
     {
         if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player")))
             return;
-       
-        Objective.OnUnregisterPickup?.Invoke(this);
+        else if (!((layerMask.value & 1 << other.gameObject.layer) > 0 && other.CompareTag("Player 2")))
+            Debug.Log("Player 2 passou");
+
+
+            Objective.OnUnregisterPickup?.Invoke(this);
     }
 }
